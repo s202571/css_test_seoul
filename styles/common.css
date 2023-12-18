@@ -1,0 +1,81 @@
+body { padding:0 180px;}
+header {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+}
+header .top_left {
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+header .top_left h1 {
+    width: 110px;
+}
+header .top_left h1 a {}
+header .top_left h1 a img {}
+header .top_left nav {}
+header .top_left nav a {
+    margin: 0.7px 0.8px; font-size: 0.7rem;
+}
+header .top_right {}
+header .top_right a {
+    margin: 0.7px 0.8px; font-size: 0.7rem;
+}
+main {}
+main .right {
+    display: flex; justify-content: flex-end;
+}
+main .last {
+    height: 119px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main .last h2 {
+    
+}
+main .last h2 a {}
+main .last h2 a img {
+    width: 150px; height: 28px;
+    display: block;
+}
+main .last >  form {}
+main .last >  form > fieldset {
+    background-color: #fff;
+    width: 370px; height: 47px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; padding:12px ;
+    border: 3px solid #1e6cb3;
+}
+main .last >  form > fieldset #search {}
+main .last >  form > fieldset > a {
+}
+main .last >  form > fieldset > a > img {
+    width: 24px; height: 24px;
+}
+main .last .last_right {}
+main .last .last_right .language {
+}
+main .last .last_right .language > fieldset {
+    display: flex; flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+main .last .last_right .language > fieldset  > select {
+    font-size: 0.65rem;
+    border: 1px solid #1e6cb3;
+    width: 98px; height: 28px;
+}
+main .last .last_right .language > fieldset  > select option {}
+main .last .last_right .language > fieldset  button {
+    font-size: 0.65rem; font-weight: 700;
+    width: 28px; height: 28px;
+    background-color: #1e6cb3; color:#fff
+    ;
+}
+main .last .last_right span {
+    font-size: 1.2rem; font-weight: 700;
+}
+main .last .last_right p {
+    font-size: 0.65rem; 
+}
